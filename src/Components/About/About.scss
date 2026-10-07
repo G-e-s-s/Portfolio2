@@ -1,0 +1,31 @@
+.about {
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#about {
+	margin: 0 0 30px 0;
+	width: fit-content;
+	background: var(--gradient);
+	background-clip: text;
+	color: transparent;
+}
+.words {
+	font-size: calc(1vw + 0.7rem);
+	font-weight: 300;
+	margin: 0 135px;
+}
+@media only screen and (max-width: 1400px) {
+	.words {
+		margin: 0;
+		padding: 0 50px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.words {
+		margin: 0;
+		padding: 0;
+	}
+}  
