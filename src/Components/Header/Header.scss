@@ -13,9 +13,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #232135;
+	background-color: #420517;
 		&.light {
-		color: #f5f5f5;
+		color: antiquewhite;
 		transition: all 1s;
 		}
 }
@@ -23,7 +23,7 @@
 	display: flex;
 	font-size: 12px;
 	width: fit-content;
-	background: var(--gradient);
+	background: #E19592;
 	background-clip: text;
 	color: transparent;
 }
@@ -51,7 +51,7 @@
 .nav ul li {
 	&:hover, &:active {
 	cursor: pointer;
-	border-image-source: linear-gradient(to right, #6253e8, #1da1f2);
+	border-image-source: linear-gradient(to right, #E19592);
 	}
 }
 .menu-and-theme {
@@ -78,11 +78,11 @@
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6253e8, #1da1f2);
+	background: linear-gradient(to right, #A2374F, #E19592);
 	object-fit: cover;
 }
 .light .roundedCircle {
-	background: linear-gradient(to bottom left, rgba(68, 146, 163, 1), rgba(251, 226, 168, 1), rgba(248, 149, 134, 1));
+	background-color: #E19592;
 }
 @media only screen and (max-width: 930px) {
 	.nav ul li {
@@ -100,7 +100,7 @@
 		cursor: pointer;
 	}
 	.light .menu {
-		color: rgba(68, 146, 163, 1);
+		color: #420517;
 		width: 10px;
 	}
 	.menu-and-theme {
@@ -115,12 +115,12 @@
 		left: 0;
 		top: 125px;
 		min-width: 100%;
-		background: linear-gradient(to bottom left, #3A7DD9, #4C4CB3, #5D38B7);
+		background: linear-gradient(to bottom left, #A2374F, #E19592);
 		z-index: 16;
 		color: white;
 	}
 	.light .small {
-		background: linear-gradient(to bottom left, rgba(68, 146, 163, 1), rgba(251, 226, 168, 1), rgba(248, 149, 134, 1));
+		background-color: #E19592;
 		color: #fff;
 	}
 	.small {
@@ -138,11 +138,11 @@
 		}
 	}
 	.cv {
-		color: white;
+		color: antiquewhite;
 	}
 	.light {
 		.cv, .small ul li {
-			color: #1da1f2;
+			color: #420517;
 		}
 	}
 	.theme-switch {

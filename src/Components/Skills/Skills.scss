@@ -1,8 +1,9 @@
 :root {
 	--container-width:650px;
 	--skill-size:calc(var(--container-width) / 4);
-	--gradient:linear-gradient(to bottom, #05BECD, #3A7DD9);
+	--gradient:linear-gradient(to bottom, #A2374F, #E19592);
 }
+
 .skills {
 	display: flex;
 	align-items: center;
@@ -10,7 +11,7 @@
 	h2 {
 		margin: 0 0 30px 0;
 		width: fit-content;
-		background: var(--gradient);
+		background: #E19592;
 		background-clip: text;
 		color: transparent;
 		font-weight: 700;
@@ -23,12 +24,12 @@
 	align-items: center;
 	justify-content: space-around;
 }
-.html, .css, .js, .github, .git, .node, .react, .mon, .fig, .notion, .canva, .adobe, .Vscode, .sass, .bootstrap, .seo {
+.premierepro,.acrobat,.after,.illustrator,.photoshop,.indesign,.html, .css, .js, .github, .git, .node, .react, .mon, .fig, .notion, .canva, .adobe, .Vscode, .sass, .bootstrap, .seo {
 	margin-right: 30px;
 	margin-bottom: 20px;
 	min-height: var(--skill-size);
 	width: var(--skill-size);
-	background-color: #ffffffe6;
+	background-color: #194851;
 	display: grid;
 	place-items: center;
 	padding: 5px;
@@ -36,13 +37,13 @@
 }
 .skill {
 	p {
-		color: var(--skill-color, #6253e8);
+		color: var(--skill-color, #E19592);
 		font-weight: 600;
 	}
 	svg {
 		min-height: calc(var(--skill-size) - 40px);
 		width: calc(var(--skill-size) - 40px);
-		color: var(--skill-color, #6253e8);
+		color: var(--skill-color, antiquewhite);
 		transition: all 390ms ease-in-out;
 	}
 }
@@ -54,34 +55,34 @@
 	svg {
 		width: 35px;
 		min-height: calc(var(--skill-size) - 130px);
-		color: var(--skill-color, #e1c300);
+		color: var(--skill-color, #E19592);
 	}
 }
-.light {
-	.skill {
-		p {
-			color: var(--skill-color, #1196d9e2);
-			transition: all 0.5s;
-		}
-		svg {
-			color: var(--skill-color, #1196d9e2);
-			transition: all 0.5s;
-			min-height: calc(var(--skill-size) - 40px);
-			width: calc(var(--skill-size) - 40px);
-		}
-	}
-	.star {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		max-height: calc(var(--skill-size) - 60px);
-		svg {
-			width: 35px;
-			min-height: calc(var(--skill-size) - 130px);
-			color: var(--skill-color, #ffdd00);
-		}
-	}
-}
+// .light {
+// 	.skill {
+// 		p {
+// 			color: var(--skill-color, #1196d9e2);
+// 			transition: all 0.5s;
+// 		}
+// 		svg {
+// 			color: var(--skill-color, #1196d9e2);
+// 			transition: all 0.5s;
+// 			min-height: calc(var(--skill-size) - 40px);
+// 			width: calc(var(--skill-size) - 40px);
+// 		}
+// 	}
+// 	.star {
+// 		display: flex;
+// 		flex-wrap: wrap;
+// 		align-items: center;
+// 		max-height: calc(var(--skill-size) - 60px);
+// 		svg {
+// 			width: 35px;
+// 			min-height: calc(var(--skill-size) - 130px);
+// 			color: var(--skill-color, #ffdd00);
+// 		}
+// 	}
+// }
 .js:hover {
 	--skill-color:#ecd123;
 }
@@ -97,36 +98,36 @@
 .css:hover {
 	--skill-color:#1572b6;
 }
-.react:hover {
-	--skill-color:#00d8ff;
-}
-.node:hover {
-	--skill-color:#4d923d;
-}
+// .react:hover {
+// 	--skill-color:#00d8ff;
+// }
+// .node:hover {
+// 	--skill-color:#4d923d;
+// }
 .fig:hover {
 	--skill-color:#de6262;
 }
-.mon:hover {
-	--skill-color:#48b64f;
-}
-.github:hover {
-	--skill-color:black;
-}
-.adobe:hover {
-	--skill-color:#ee3737;
-}
-.Vscode:hover {
-	--skill-color:#1572b6;
-}
-.sass:hover {
-	--skill-color:rgb(185, 97, 202);
-}
-.git:hover {
-	--skill-color:#e05216;
-}
-.bootstrap:hover {
-	--skill-color:#8b32ff;
-}
+// .mon:hover {
+// 	--skill-color:#48b64f;
+// }
+// .github:hover {
+// 	--skill-color:black;
+// }
+// .adobe:hover {
+// 	--skill-color:#ee3737;
+// }
+// .Vscode:hover {
+// 	--skill-color:#1572b6;
+// }
+// .sass:hover {
+// 	--skill-color:rgb(185, 97, 202);
+// }
+// .git:hover {
+// 	--skill-color:#e05216;
+// }
+// .bootstrap:hover {
+// 	--skill-color:#8b32ff;
+// }
 .seo:hover {
 	--skill-color:#ff5d5d;
 }

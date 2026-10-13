@@ -3,7 +3,7 @@ import React from 'react'
 import '../../Components/Skills/Skills.scss';
 
 //icons
-import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiFigma, SiMongodb, SiGithub, SiNotion, SiCanva, SiAdobe, SiSass, SiReactbootstrap } from 'react-icons/si';
+import { SiAdobepremierepro,SiAdobeacrobatreader,SiAdobeindesign,SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiFigma, SiMongodb, SiGithub, SiNotion, SiCanva, SiAdobe, SiSass, SiReactbootstrap, SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects } from 'react-icons/si';
 import { VscVscode } from "react-icons/vsc";
 import { FaGitAlt } from "react-icons/fa";
 import { RiStarSFill } from "react-icons/ri";
@@ -14,19 +14,39 @@ const Skills = () => {
     <div className='skills'>
       <h2>Mes Compétences</h2>
       <div className="skill">
+        <div className="illustrator">
+          <SiAdobeillustrator />
+          <p>Illustrator </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        <div className="photoshop">
+          <SiAdobephotoshop />
+          <p>Photoshop </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        <div className="indesign">
+          <SiAdobeindesign />
+          <p>InDesign </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        <div className="after">
+          <SiAdobeaftereffects />
+          <p>After Effects </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        <div className="premierepro">
+          <SiAdobepremierepro />
+          <p>Premiere Pro </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
+        </div>
         <div className="html">
           <SiHtml5 />
-          <p>HTML</p><div className='star'><RiStarSFill /><RiStarSFill /></div>
+          <p>HTML</p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
         </div>
         <div className="css">
           <SiCss3 />
-          <p>CSS</p><div className='star'><RiStarSFill /><RiStarSFill /></div>
+          <p>CSS</p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
         </div>
         <div className="js">
           <SiJavascript />
-          <p>JavaScript </p><div className='star'><RiStarSFill /></div>
+          <p>JavaScript </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
-        <div className="github">
+        {/* <div className="github">
           <SiGithub />
           <p>Github </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
@@ -45,7 +65,7 @@ const Skills = () => {
         <div className="mon">
           <SiMongodb />
           <p>MongoDB </p><div className='star'><RiStarSFill /></div>
-        </div>
+        </div> */}
         <div className="fig">
           <SiFigma />
           <p>Figma </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
@@ -58,7 +78,11 @@ const Skills = () => {
           <SiCanva />
           <p>Canva </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
         </div>
-        <div className="adobe">
+        <div className="acrobat">
+          <SiAdobeacrobatreader />
+          <p>Acrobat </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        {/* <div className="adobe">
           <SiAdobe />
           <p>Adobe </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
@@ -77,7 +101,7 @@ const Skills = () => {
         <div className="seo">
           <TbSeo />
           <p>SEO </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

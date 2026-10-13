@@ -14,11 +14,14 @@
     align-items: center;
     flex-direction: column;
         a {
-            color: white;
+            color: #420517;
         }
 }
+.error404 {
+    width: 35%;
+}
 .textError {
-    color: #05BECD;
+    color: #194851;
     font-size: 36px;
     font-weight: 500;
     padding-bottom: 5%;
@@ -27,35 +30,6 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 100px;
-}
-@keyframes change_colors {
-    0% {
-        color: #5150ea;
-    }
-    12% {
-        color: #ef4b7d;
-    }
-    25% {
-        color: #fd4a82;
-    }
-    37% {
-        color: rgba(248, 149, 134, 1);
-    }
-    50% {
-        color: #fc7f63;
-    }
-    62% {
-        color: #6665ed;
-    }
-    75% {
-        color: #62ccfe;
-    }
-    87% {
-        color: rgba(68, 146, 163, 1);
-    }
-    100% {
-        color: #aa66f7;
-    }
 }
 @media all and (max-width: 1000px) {
     .Error {

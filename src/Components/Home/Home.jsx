@@ -5,8 +5,6 @@ import '../Home/Home.scss';
 import TypeWriterEffect from 'react-typewriter-effect';
 import { Link } from 'react-scroll';
 
-import { GiButterflyFlower } from 'react-icons/gi';
-
 
 const Home = () => {
   return (
@@ -18,7 +16,7 @@ const Home = () => {
           </h1>
         </div>
         <TypeWriterEffect
-          cursorColor="#1da1f2"
+          cursorColor="#A2374F"
           multiText={[
             "Supports Imprimés & Digitaux",
             "Gestion des réseaux sociaux",

@@ -16,10 +16,10 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentStyle={{ background: 'white', color: 'white' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2023 - present"
-            iconStyle={{ color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Développeur intégrateur web</h2>
@@ -37,7 +37,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Avril 2023"
-            iconStyle={{ color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ color: 'antiquewhite' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Stage à Des Sources Studio</h2>
@@ -53,7 +53,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Mai - Juin 2022"
-            iconStyle={{ color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ color: 'antiquewhite' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Stage aux Editions "La Gauloise"</h2>
@@ -69,7 +69,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2023"
-            iconStyle={{ color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ color: 'antiquewhite' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Licence de Psychologie</h2>

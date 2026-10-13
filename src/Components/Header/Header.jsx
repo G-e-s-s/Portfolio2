@@ -52,9 +52,9 @@ const Nav = ({ isDarkMode, handleToggle }) => {
           <div className='large small'>
             {nav}
           </div>
-          <div className={`theme-switch ${!isDarkMode ?'light' : ''}`} onClick={handleToggle} >
+          {/* <div className={`theme-switch ${!isDarkMode ?'light' : ''}`} onClick={handleToggle} >
             {isDarkMode ? <FaMoon /> : <FaSun />}
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

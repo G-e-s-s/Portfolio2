@@ -5,7 +5,7 @@
     h1 {
         margin: 30px;
         width: fit-content;
-        background: var(--gradient);
+        background: #420517;
         background-clip: text;
         color: transparent;
     }
@@ -15,24 +15,29 @@
 }
 .vertical-timeline-element-icon {
     font-family: 'Courier Prime', monospace;
-    background: linear-gradient(to bottom, #05BECD, #3A7DD9);
+    background: linear-gradient(to bottom, #194851);
 }
 .vertical-timeline-element-date {
     width: fit-content;
-    background: var(--gradient);
+    background: white;
     background-clip: text;
-    color: transparent;
+    color: white;
+    font-weight: Bold;
 }
+
 .vertical-timeline-element {
-    h3, h4 {
+    h3 {
         width: fit-content;
-        background: var(--gradient);
+        background: #194851;
         background-clip: text;
         color: transparent;
     }
+    h2 {
+        color: #A2374F;
+    }
 }
 .vertical-timeline p, .vertical-timeline-element p, .vertical-timeline-element-icon {
-    color: rgb(39, 40, 34);
+    color: #194851;
 }
 .vertical-timeline::before {
     height: 98%;
@@ -42,6 +47,6 @@
 }
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element {
-        color: rgb(39, 40, 34);
+        color: #194851;
     }
 }  
