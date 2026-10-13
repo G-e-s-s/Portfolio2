@@ -14,23 +14,22 @@ const Home = () => {
       <div className="home-text">
         <div className='name'>
           <h1 className='gradientText'>
-           Portfolio de Gessica Goublet
+           Gessica Goublet
           </h1>
-          <span>
-            <div className='flower' alt="flower">
-              < GiButterflyFlower />
-            </div>
-          </span>
         </div>
         <TypeWriterEffect
           cursorColor="#1da1f2"
           multiText={[
-            'Développeur web',
-            "Passionnée par le développement web et l'UI/UX design"
+            "Supports Imprimés & Digitaux",
+            "Gestion des réseaux sociaux",
+            "Illustration",
+            "Identité Visuelle & Branding",
+            "Motion Design",
+            "Webdesign"
           ]}
           multiTextLoop={true}
           multiTextDelay={1500}
-          typeSpeed={35}
+          typeSpeed={40}
         />
         <div className="btns">
           <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
