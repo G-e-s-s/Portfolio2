@@ -37,7 +37,7 @@
 }
 .skill {
 	p {
-		color: var(--skill-color, #E19592);
+		color: var(--skill-color, antiquewhite);
 		font-weight: 600;
 	}
 	svg {
@@ -83,42 +83,60 @@
 // 		}
 // 	}
 // }
+.illustrator:hover {
+	--skill-color:#F67828;
+}
+.photoshop:hover {
+	--skill-color:#31A8FF;
+}
+.indesign:hover {
+	--skill-color:#FF3366;
+}
+.after:hover {
+	--skill-color:#9999FF;
+}
+.premierepro:hover {
+	--skill-color:#90D5FF;
+}
 .js:hover {
-	--skill-color:#ecd123;
+	--skill-color:#FFB703;
 }
 .html:hover {
-	--skill-color:#f1662a;
+	--skill-color:#FF6600;
 }
 .canva:hover {
-	--skill-color:#6253e8;
+	--skill-color:#B388FF;
 }
 .notion:hover {
-	--skill-color:black;
+	--skill-color:#120D16;
 }
 .css:hover {
-	--skill-color:#1572b6;
+	--skill-color:#77B5FE;
 }
-// .react:hover {
-// 	--skill-color:#00d8ff;
-// }
+.react:hover {
+	--skill-color:#00d8ff;
+}
 // .node:hover {
 // 	--skill-color:#4d923d;
 // }
 .fig:hover {
-	--skill-color:#de6262;
+	--skill-color: #FF6666;
 }
+// .acrobat:hover{
+// 	--skill-color:#FF0000;
+// }
 // .mon:hover {
 // 	--skill-color:#48b64f;
 // }
-// .github:hover {
-// 	--skill-color:black;
-// }
+.github:hover {
+	--skill-color:#9791F1;
+}
 // .adobe:hover {
 // 	--skill-color:#ee3737;
 // }
-// .Vscode:hover {
-// 	--skill-color:#1572b6;
-// }
+.Vscode:hover {
+	--skill-color:#23A9F2;
+}
 // .sass:hover {
 // 	--skill-color:rgb(185, 97, 202);
 // }
@@ -128,9 +146,9 @@
 // .bootstrap:hover {
 // 	--skill-color:#8b32ff;
 // }
-.seo:hover {
-	--skill-color:#ff5d5d;
-}
+// .seo:hover {
+// 	--skill-color:#ff5d5d;
+// }
 @media only screen and (max-width: 600px) {
 	:root {
 		--container-width:450px;

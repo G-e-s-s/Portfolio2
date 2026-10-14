@@ -34,7 +34,7 @@ const Home = () => {
             Contactez-moi
           </Link>
           <a className='btn2' href='https://www.canva.com/design/DAFD7wMUL-8/UamjcRgbfVMmZpq9JnYR0w/view?utm_content=DAFD7wMUL-8&utm_campaign=designshare&utm_medium=link&utm_source=editor' target='_blank' rel='noreferrer'>
-            Mon Dossier Artistique
+            Mon portfolio
           </a>
         </div>
       </div>

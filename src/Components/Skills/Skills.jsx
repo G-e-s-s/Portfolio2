@@ -46,26 +46,30 @@ const Skills = () => {
           <SiJavascript />
           <p>JavaScript </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
-        {/* <div className="github">
+        <div className="github">
           <SiGithub />
-          <p>Github </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
+          <p>Github </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
         </div>
-        <div className="git">
+        {/* <div className="git">
           <FaGitAlt />
-          <p>Git </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
-        </div>
-        <div className="node">
+          <p>Git </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div> */}
+        {/* <div className="node">
           <SiNodedotjs />
           <p>Node JS </p><div className='star'><RiStarSFill /></div>
-        </div>
+        </div> */}
         <div className="react">
           <SiReact />
           <p>React </p><div className='star'><RiStarSFill /></div>
         </div>
-        <div className="mon">
+        <div className="Vscode">
+          <VscVscode />
+          <p>Vscode </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
+        </div>
+        {/* <div className="mon">
           <SiMongodb />
           <p>MongoDB </p><div className='star'><RiStarSFill /></div>
-        </div> */}
+        </div>  */}
         <div className="fig">
           <SiFigma />
           <p>Figma </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
@@ -78,19 +82,15 @@ const Skills = () => {
           <SiCanva />
           <p>Canva </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
         </div>
-        <div className="acrobat">
+        {/* <div className="acrobat">
           <SiAdobeacrobatreader />
           <p>Acrobat </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
-        </div>
+        </div> */}
         {/* <div className="adobe">
           <SiAdobe />
           <p>Adobe </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
-        </div>
-        <div className="Vscode">
-          <VscVscode />
-          <p>Vscode </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
-        </div>
-        <div className="sass">
+        </div> */}
+        {/* <div className="sass">
           <SiSass />
           <p>Sass </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
@@ -101,7 +101,7 @@ const Skills = () => {
         <div className="seo">
           <TbSeo />
           <p>SEO </p><div className='star'><RiStarSFill /><RiStarSFill /><RiStarSFill /></div>
-        </div> */}
+        </div>  */}
       </div>
     </div>
   )

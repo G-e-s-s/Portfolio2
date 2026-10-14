@@ -21,7 +21,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
 
   const nav =
     <ul style={{ pointerEvents: 'auto' }}>
-      <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={500}>
+      <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="home" spy={true} smooth={true} offset={-80} duration={500}>
         A propos
       </Link></li>
       <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="projects" spy={true} smooth={true} offset={-80} duration={500}>
@@ -30,7 +30,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="socials" spy={true} smooth={true} offset={0} duration={500}>
         Contact
       </Link></li>
-      <li><a className='cv' href='https://acrobat.adobe.com/id/urn:aaid:sc:EU:5c22772a-a6db-41be-b00e-39628b29a75a' target='_blank' rel='noreferrer' alt="CV">
+      <li><a className='cv' href='file:///D:/Kiki/%C2%B0Micro_Entreprise/Projets/CV/Graphiste_GOUBLET_Gessica.pdf' target='_blank' rel='noreferrer' alt="CV">
         CV
       </a></li>
     </ul>

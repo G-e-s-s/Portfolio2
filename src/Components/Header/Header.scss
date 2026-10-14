@@ -14,10 +14,10 @@
 	align-items: center;
 	justify-content: space-between;
 	background-color: #420517;
-		&.light {
-		color: antiquewhite;
-		transition: all 1s;
-		}
+		// &.light {
+		// color: antiquewhite;
+		// transition: all 1s;
+		// }
 }
 .large {
 	display: flex;
@@ -27,6 +27,7 @@
 	background-clip: text;
 	color: transparent;
 }
+
 .nav {
 	h1 {
 		font-size: calc(1vw + 1.3rem);
@@ -41,17 +42,25 @@
 			border-image-slice: 1;
 			border-width: 2px;
 			font-size: calc(1vw + 10px);
+				&:hover, &:active {
+					cursor: pointer;
+					color: antiquewhite;
+				}
 		}
 	}
 }
 .cv {
 	text-decoration: none;
 	color: transparent;
+	&:hover, &:active {
+	cursor: pointer;
+	color: antiquewhite;
+	}
 }
 .nav ul li {
 	&:hover, &:active {
 	cursor: pointer;
-	border-image-source: linear-gradient(to right, #E19592);
+	border-image-source: linear-gradient(to right,#420517, antiquewhite);
 	}
 }
 .menu-and-theme {
@@ -59,18 +68,18 @@
 	align-items: center;
 	justify-content: space-between;
 }
-.theme-switch {
-	margin-left: 3rem;
-	background: transparent !important;
-	transition: all 0.6s;
-	cursor: pointer;
-		> svg {
-		color: #fff;
-		width: 1.2rem;
-		height: 1.2rem;
-		transition: all 1s;
-		}
-}
+// .theme-switch {
+// 	margin-left: 3rem;
+// 	background: transparent !important;
+// 	transition: all 0.6s;
+// 	cursor: pointer;
+// 		> svg {
+// 		color: antiquewhite;
+// 		width: 1.2rem;
+// 		height: 1.2rem;
+// 		transition: all 1s;
+// 		}
+// }
 .menu {
 	display: none;
 }
@@ -81,9 +90,9 @@
 	background: linear-gradient(to right, #A2374F, #E19592);
 	object-fit: cover;
 }
-.light .roundedCircle {
-	background-color: #E19592;
-}
+// .light .roundedCircle {
+// 	background-color: #E19592;
+// }
 @media only screen and (max-width: 930px) {
 	.nav ul li {
 		margin-left: 1rem;
@@ -99,10 +108,10 @@
 		z-index: 100;
 		cursor: pointer;
 	}
-	.light .menu {
-		color: #420517;
-		width: 10px;
-	}
+	// .light .menu {
+	// 	color: #420517;
+	// 	width: 10px;
+	// }
 	.menu-and-theme {
 		gap: 3rem;
 	}
@@ -117,12 +126,12 @@
 		min-width: 100%;
 		background: linear-gradient(to bottom left, #A2374F, #E19592);
 		z-index: 16;
-		color: white;
+		color: antiquewhite;
 	}
-	.light .small {
-		background-color: #E19592;
-		color: #fff;
-	}
+	// .light .small {
+	// 	background-color: #E19592;
+	// 	color: #fff;
+	// }
 	.small {
 		> ul {
 			flex-direction: row;
@@ -140,11 +149,11 @@
 	.cv {
 		color: antiquewhite;
 	}
-	.light {
-		.cv, .small ul li {
-			color: #420517;
-		}
-	}
+	// .light {
+	// 	.cv, .small ul li {
+	// 		color: #420517;
+	// 	}
+	// }
 	.theme-switch {
 		margin-left: 0rem;
 		background: transparent !important;
