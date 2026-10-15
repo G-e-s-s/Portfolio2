@@ -20,6 +20,7 @@ const Home = () => {
           multiText={[
             "Supports Imprimés & Digitaux",
             "Gestion des réseaux sociaux",
+            "Packaging",
             "Illustration",
             "Identité Visuelle & Branding",
             "Motion Design",

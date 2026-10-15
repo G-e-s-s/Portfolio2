@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { ReactComponent as AnimatedLogo } from '../../assets/animations/Point_background.svg';
 
 import '../TimeLine/Timeline.scss';
 
@@ -80,6 +81,9 @@ function Timeline() {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+         <div className="decos">
+            <AnimatedLogo className="Point_background.svg"/>
+          </div>
       </div>
     </div>
   );
