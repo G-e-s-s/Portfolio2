@@ -1,7 +1,8 @@
 import React from 'react'
 
 // import Moi from '../../assets/Gessica_Goublet.png';
-import '../About/About.scss'
+import '../About/About.scss';
+import { ReactComponent as AnimatedLogo } from '../../assets/animations/Working_at_home.svg';
 
 const About = () => {
   return (
@@ -12,9 +13,9 @@ const About = () => {
       Je conçois des identités graphiques, des supports de communication et des animations fluides qui donnent du sens <br></br> et du mouvement à vos messages. <br></br>
       Mettre les idées en mouvement et raconter des histoires visuelles qui touchent juste, c'est ce qui m'anime au quotidien.
       </div>
-      {/* <div>
-        <img src={Moi} alt="Gessica Goublet" />
-      </div> */}
+         <div className="animWorking">
+            <AnimatedLogo className="Working_at_home.svg"/>
+          </div>
     </div>
   )
 }

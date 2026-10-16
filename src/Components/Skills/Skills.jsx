@@ -60,7 +60,7 @@ const Skills = () => {
         </div> */}
         <div className="react">
           <SiReact />
-          <p>React </p><div className='star'><RiStarSFill /></div>
+          <p>React </p><div className='star'><RiStarSFill /><RiStarSFill /></div>
         </div>
         <div className="Vscode">
           <VscVscode />

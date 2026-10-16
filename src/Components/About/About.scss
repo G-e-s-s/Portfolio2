@@ -17,6 +17,14 @@
 	font-weight: 300;
 	margin: 0 0px;
 }
+.animWorking {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+}
 @media only screen and (max-width: 1400px) {
 	.words {
 		margin: 0;

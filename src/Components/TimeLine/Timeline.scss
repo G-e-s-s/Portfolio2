@@ -11,7 +11,7 @@
     }
 }
 .vertical-timeline {
-    margin: 0 auto 40px auto;
+    margin: 0 auto 20px auto;
 }
 .vertical-timeline-element-icon {
     font-family: 'Courier Prime', monospace;
@@ -37,7 +37,8 @@
     }
 }
 .vertical-timeline p, .vertical-timeline-element p, .vertical-timeline-element-icon {
-    color: #194851;
+    color: #420517
+;
 }
 .vertical-timeline::before {
     height: 98%;
