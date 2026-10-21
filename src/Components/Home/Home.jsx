@@ -34,7 +34,7 @@ const Home = () => {
           <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
             Contactez-moi
           </Link>
-          <a className='btn2' href='https://www.canva.com/design/DAFD7wMUL-8/UamjcRgbfVMmZpq9JnYR0w/view?utm_content=DAFD7wMUL-8&utm_campaign=designshare&utm_medium=link&utm_source=editor' target='_blank' rel='noreferrer'>
+          <a className='btn2' href='https://www.behance.net/gessicagoublet' target='_blank' rel='noreferrer'>
             Mon portfolio
           </a>
         </div>

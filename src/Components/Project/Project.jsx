@@ -8,13 +8,16 @@ const Project = () => {
       <h1 className='TitleProject'>Mes Projets</h1> 
       <div>
         {projectsInfo.map((project,index) => {
-          let link = null;
-          if(project.liveLink.localeCompare(project.githubLink) !== 0){ 
-            link = <a href={project.liveLink} target="_blank" rel="noreferrer">Live</a> 
-          }
+          // let link = null;
+          // if(project.liveLink.localeCompare(project.githubLink) !== 0){ 
+          //   link = <a href={project.liveLink} target="_blank" rel="noreferrer">Live</a> 
+          // }
           return (
             <div className="project" key={index}>
               <h2 className='TitleProject'>{project.name}</h2>
+              <div key={project.id}>
+                <img src={project.img} alt={project.company} />
+              </div>              
               <p>{project.desc}</p> <br></br>
               <p>{project.pb}</p>
               <div className="tech-stack">
@@ -23,8 +26,8 @@ const Project = () => {
                 ))} 
               </div>
               <div className="btns">
-                {link}
-                <a href={project.githubLink} target="_blank" rel="noreferrer">Github</a>
+                {/* {link} */}
+                <a href={project.githubLink} target="_blank" rel="noreferrer">Behance</a>
               </div>
             </div>
           )

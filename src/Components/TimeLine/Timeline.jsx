@@ -19,7 +19,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'white' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2024 - 2025"
+            date="2025 - 2026"
             iconStyle={{ color: 'white' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -123,9 +123,12 @@ function Timeline() {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-         <div className="decos">
-            <AnimatedLogo className="Point_background.svg"/>
-          </div>
+            <div className="decos1">
+              <AnimatedLogo className="Point_background.svg"/>
+            </div>
+            <div className="decos2">
+              <AnimatedLogo className="Point_background.svg"/>
+            </div>
       </div>
     </div>
   );

@@ -46,9 +46,18 @@
 .vertical-timeline-element, .svg-inline--fa {
     color: white;
 }
-.decos {
+
+.decos1 {
     position: absolute;
-    top: 2500px;
+    margin-top: 50px;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -2;
+}
+.decos2 {
+    position: absolute;
+    margin-top: 1000px;
     left: 0;
     width: 100%;
     height: 150%;
