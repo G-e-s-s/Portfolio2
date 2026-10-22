@@ -1,29 +1,57 @@
 [
     {
+      "name": "Leaflet Mode",
+        "id": 1,
+        "nomprojet": "Leaflet Mode The North Face",
+        "img": "../../assets/animations/affiche_TNF.jpg",
+      "desc": "Élaboration d’un leaflet, d’une affiche publicitaire et de quelques posts Instagram pour le lancement de la nouvelle collection 2025 «Lunar Pack» de la marque The North Face.",
+      "pb": "A REMPLIR !!!",
+      "liveLink": "",
+      "githubLink": "",
+      "techs": ["Photoshop", "Illustrator", "Indesign"]
+    },
+    {
+      "name": "Monster Summer Camp",
+        "id": 1,
+        "nomprojet": "Projet Monster Summer Camp",
+        "img": "../../assets/animations/affiche_MSC.jpg",
+      "desc": "Réalisation d’une affiche pour un camp de vacances pour jeunes monstres, « Le Monster Summer Camp ».",
+      "pb": "Avec une ambiance humouristique, cette affiche contient seulement trois couleurs, avec un rendu trame/halftone. Une planche de 10 vignettes de recherche de composition, ainsi qu’une planche de 5 tests de couleurs.",
+      "liveLink": "",
+      "githubLink": "",
+      "techs": ["Photoshop", "Illustrator"]
+    },
+    {
       "name": "Générique du Film La La Land",
+        "id": 1,
+        "nomprojet": "Projet Générique La La Land",
+        "img": "../../assets/animations/Walking_Spider.png",
       "desc": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS, en versionnant le projet avec Git et Github. Intégration du contenu conformément à la maquette donnée sur Figma, tout en implémentant une interface responsive.",
-      "pb": "Les complications que j'ai rencontrées durant ce projet étaient, au départ, l'utilisation de Git. Je n'arrivais pas à faire la configuration, créer et initialiser un dépôt local. Cependant avec de la pratique et plusieurs essais j'ai pris Git en main. J'avais aussi du mal à utiliser Flexbox, mais avec le jeu Flexbox Froggy cela m'a permis de maîtriser ces propriétés.",
-      "liveLink": "https://github.com/G-e-s-s/OC_Projet1_Booki.git",
+      "pb": "A REMPLIR !!!",
+      "liveLink": "",
       "githubLink": "https://www.behance.net/gallery/254935983/Gnrique-La-La-Land",
-      "techs": ["Illustrator", "After Effects", "Animate", "Indesign"]
+      "techs": ["Illustrator", "After Effects", "Animate", "Indesign", "Reaper"]
     },
     {
         "name": "Walking Spider",
-        "id": 1,
-        "company": "Projet Walking Spider",
-        "img": ".../.../assets/animations/Walking_Spider.png",
+        "id": 2,
+        "nomprojet": "Projet Walking Spider",
+        "img": "../../assets/animations/Walking_Spider.png",
         "desc": "Animation du cycle de marche d’une araignée, vue de profil, sur un arrière-plan qui défile avec un effet de parallaxe.",
         "pb": "L'araignée prend vie grâce au balancement de son abdomen et de sa tête, ainsi qu'aux mouvements fluides de ses pattes. L'arrière-plan et l'araignée ont été conçus dans Illustrator et Photoshop. Animate a été utilisé pour assembler les différentes parties du corps de l'araignée et créer l'animation de marche. Enfin, la composition de tous les éléments et les effets ajoutés ont été réalisés dans After Effects.",
-        "liveLink": "https://g-e-s-s.github.io/OC_Projet_3_D-bug/",
+        "liveLink": "",
         "githubLink": "https://www.behance.net/gallery/254924771/Walking-Spider",
-        "techs": ["Photoshop", "Illustrator", "Animate", "After Effects"]
+        "techs": ["Photoshop", "Illustrator", "Animate", "After Effects", "Reaper"]
     },
     {
-        "name": "React",
-        "desc": "Implémentation du front-end pour l'application d'une entreprise de location d’appartements entre particuliers, en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
-        "pb": "Créer des composants pour pouvoir les réutiliser était nouveau pour moi, je me suis donc un peu attarder dessus, en réfléchissant bien aux composants qui peuvent être réutilisés. La navigation entre les pages de l'application avec React Router, m'a parru compliqué au départ, seulement une fois la logique comprise, j'ai trouvé que ça permet d'organiser le site.",
-        "liveLink": "https://github.com/G-e-s-s/OC_Projet_4_React.git",
-        "githubLink": "https://github.com/G-e-s-s/OC_Projet_4_React.git",
-        "techs": ["React","React Router", "JavaScript", "React App", "Node.JS", "Sass", "CSS"]
+      "name": "Label de musique",
+        "id": 1,
+        "nomprojet": "Projet Label de musique brésilien",
+        "img": "../../assets/animations/Label_logo.jpeg",
+      "desc": "Le projet porte sur la création d’un nouveau label de musique brésilien, avec un album de lancement de Maria Bethania. Le concept de ce label est de transmettre l’héritage musical brésilien aux jeunes générations à la recherche de nouveaux style musicaux.",
+      "pb": "Animal emblématique du Brésil, symbole de la beauté et de la splendeur, le toucan représente la joie et l’envol vers le monde spirituel. La tête du toucan s’imbrique dans la guitare, dont l’aile du haut forme également le manche de la guitare.",
+      "liveLink": "",
+      "githubLink": "",
+      "techs": ["Photoshop", "Illustrator", "Indesign"]
     }
 ]

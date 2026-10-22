@@ -16,7 +16,7 @@ const Project = () => {
             <div className="project" key={index}>
               <h2 className='TitleProject'>{project.name}</h2>
               <div key={project.id}>
-                <img src={project.img} alt={project.company} />
+                <img src={project.img} alt={project.nomprojet} />
               </div>              
               <p>{project.desc}</p> <br></br>
               <p>{project.pb}</p>
