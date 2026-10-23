@@ -34,7 +34,7 @@ const Home = () => {
           <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
             Contactez-moi
           </Link>
-          <a className='btn2' href='https://www.behance.net/gessicagoublet' target='_blank' rel='noreferrer'>
+          <a className='btn2' href='https://www.behance.net/gallery/257514001/Portfolio-2025-2026' target='_blank' rel='noreferrer'>
             Mon portfolio
           </a>
         </div>

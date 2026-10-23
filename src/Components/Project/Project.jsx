@@ -17,7 +17,8 @@ const Project = () => {
               <h2 className='TitleProject'>{project.name}</h2>
               <div key={project.id}>
                 <img src={project.img} alt={project.nomprojet} />
-              </div>              
+              </div>  
+              <h3>{project.category}</h3> <br></br>            
               <p>{project.desc}</p> <br></br>
               <p>{project.pb}</p>
               <div className="tech-stack">
