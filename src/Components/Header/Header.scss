@@ -44,7 +44,7 @@
 			font-size: calc(1vw + 10px);
 				&:hover, &:active {
 					cursor: pointer;
-					color: antiquewhite;
+					color: #A2374F;
 				}
 		}
 	}
@@ -54,13 +54,13 @@
 	color: transparent;
 	&:hover, &:active {
 	cursor: pointer;
-	color: antiquewhite;
+	color: #A2374F;
 	}
 }
 .nav ul li {
 	&:hover, &:active {
 	cursor: pointer;
-	border-image-source: linear-gradient(to right,#420517, antiquewhite);
+	border-image-source: linear-gradient(to right,#420517, #A2374F);
 	}
 }
 .menu-and-theme {

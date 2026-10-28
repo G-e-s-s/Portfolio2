@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import '../Header/Header.scss'
+// import CV from './assets/Graphiste_GOUBLET_Gessica.pdf'
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import photoProfil from "../../assets/Gessica_Goublet.webp"
+
 
 //icons
 import { Link } from 'react-scroll';
@@ -30,7 +32,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="socials" spy={true} smooth={true} offset={0} duration={500}>
         Contact
       </Link></li>
-      <li><a className='cv' href='file:///D:/Kiki/%C2%B0Micro_Entreprise/Projets/CV/Graphiste_GOUBLET_Gessica.pdf' target='_blank' rel='noreferrer' alt="CV">
+      <li><a className='cv' href='Portfolio/document/Graphiste_GOUBLET_Gessica.pdf' target='_blank' rel='noreferrer' alt="CV">
         CV
       </a></li>
     </ul>
