@@ -2,7 +2,7 @@
   "name": "projet_6_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://g-e-s-s.github.io/Portfolio/",
+  "homepage": "https://g-e-s-s.github.io/Portfolio2/",
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -52,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
