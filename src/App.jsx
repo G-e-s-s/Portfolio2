@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router-dom';
 
 // components
-import Portfolio from './Pages/Portfolio/Portfolio2';
+import Portfolio from './Pages/Portfolio/Portfolio';
 import Error from './Pages/Error/error';
 
 const App = () => {
