@@ -32,7 +32,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <li><Link rel="stylesheet" onClick={handleClick} activeClass="active" to="socials" spy={true} smooth={true} offset={0} duration={500}>
         Contact
       </Link></li>
-      <li><a className='cv' href='Portfolio/document/Graphiste_GOUBLET_Gessica.pdf' target='_blank' rel='noreferrer' alt="CV">
+      <li><a className='cv' href='Portfolio/document/Gessica_Goublet.pdf' target='_blank' rel='noreferrer' alt="CV">
         CV
       </a></li>
     </ul>
